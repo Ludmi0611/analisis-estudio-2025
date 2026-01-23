@@ -1,0 +1,81 @@
+,,,,,
+Dia ,Turno,Horas,Tecnología,Curso,Tema
+20/04/2025,,2:40 hs,Python,Python con midudev,
+10/05/2025,,1:30 hs,Python,Data Science ONE,
+17/05/2025,,2 h,Python,Data Science ONE,
+29/05/2025,,,Python,Data Science ONE,"Python para data science: funciones, estructuras de datos y excepciones"
+08/07/2025,mañana,1:00,Power BI,Tío Tech,Formula DAX
+08/07/2025,tarde,1:00,Python,Data Science ONE,Funciones
+09/07/2025,noche,1:00,Power BI,Tío Tech,Formula DAX
+10/07/2025,mañana,1:00,Power BI,Tío Tech,"Formula DAX, Marcadores, Botones, Mapa Coropletico"
+10/07/2025,tarde,1:00,Python,Data Science ONE,"Python para data science: funciones, estructuras de datos y excepciones"
+11/07/2025,mañana,0:30,Power BI,Tío Tech,Power Query
+11/07/2025,tarde,0:30,Python,Procesos de ETL modernos con Python - Codigo Facilito,ETL
+15/07/2025,tarde,0:30,Python,Data Science ONE,"Python para data science: funciones, estructuras de datos y excepciones"
+16/07/2025,tarde,1:00,Python,Data Science ONE,"Python para data science: funciones, estructuras de datos y excepciones"
+16/07/2025,noche ,1:00,Python,Data Science ONE,"Python para data science: funciones, estructuras de datos y excepciones"
+19/07/2025,noche,0:30,Power BI,Tío Tech,Power Query
+22/07/2025,noche,0:30,Power BI,Tío Tech,Funciones DAX
+23/07/2025,noche,1:30,Power BI,Tío Tech,Funciones DAX
+24/07/2025,mañana,1:00,Power BI,Proyecto Tienda Pampa,Desarollo de proyecto
+25/07/2025,tarde,1:30,Power BI,Proyecto Tienda Pampa,Desarollo de proyecto
+27/07/2025,noche,1:30,Power BI,Proyecto Tienda Pampa,Desarollo de proyecto
+28/07/2025,noche,1:00,Power BI,Proyecto Tienda Pampa,Desarollo de proyecto
+30/07/2025,tarde,2:00,Power BI,Platzi,Power BI Avanzado
+30/07/2025,noche,0:30,Power BI,Platzi,Power BI Avanzado
+30/07/2025,noche,0:30,Marketing Digital,Coursera,Marketing digital y e-commerce
+31/07/2025,mañana,1:00,Power BI,Platzi,Power BI Avanzado
+31/07/2025,tarde,1:00,Power BI,Platzi,Power BI Avanzado
+31/07/2025,noche,1:00,Power BI,Platzi,Power BI Avanzado
+01/08/2025,mañana,1:00,Fundamentos de IA,Guayerd - IBM,IA
+01/08/2025,tarde,2:00,Fundamentos de IA,Guayerd - IBM,IA
+02/08/2025,tarde,1:30,Python,ONE,"Python para data science: funciones, estructuras de datos y excepciones"
+08/08/2025,noche,1:00,Testing,XAcademy,Introduccion al testing
+20/08/2025,noche,1:00,Testing,XAcademy,Introduccion al testing
+03/09/2025,mañana,1:00,Testing,XAcademy,
+03/09/2025,tarde,1:00,Testing,XAcademy,
+08/09/2025,mañana,1:00,Data Analytics,Quales,Ciclo de vida de datos
+08/09/2025,tarde,1:00,Data Analytics,Quales,Cultura de datos
+14/09/2025,tarde,1:30,Testing,XAcademy,Proyecto
+14/09/2025,noche,1:00,Data Analytics,Quales,Logica y Estadistica
+08/10/2025,tarde,1:30,Python,Guayerd - IBM,Python for Data Science
+09/10/2025,tarde,1:00,Logica,Tec. en ciencia de datos,Curso de ingreso - Logica
+10/10/2025,tarde,1:30,Logica,Tec. en ciencia de datos,Curso de ingreso - Logica
+14/10/2025,noche,2:00,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
+18/10/2025,mañana,0:40,Python,Guayerd - IBM,Proyecto Aurelion
+20/10/2025,tarde,1:00,Python,Guayerd - IBM,Proyecto Aurelion
+20/10,noche,0:40,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
+23/10/2025,mañana,1:00,Proyecto No Country,No Country,Dashboard
+24/10/2025,mañana,1:20,Proyecto No Country,No Country,Dashboard
+24/10/2025,noche,1:00,Proyecto No Country,No Country,Dashboard
+27/10/2025,mañana,1:40,Proyecto No Country,No Country,Dashboard
+27/10/2025,tarde,1:00,Data Analytics,Quales,Entrega
+29/10/2025,tarde ,3:20,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
+30/10/2025,tarde,2:20,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
+02/11/2025,tarde,1:20,Data Analytics,Quales,sql server
+02/11/2025,noche,0:40,Python,Guayerd - IBM,python for Data Science
+09/11/2025,tarde,1:20,Python,Guayerd - IBM,python for Data Science
+12/11/2025,noche,1:00,Python,Guayerd - IBM,python for Data Science
+17/11/2025,tarde,0:40,SQL Server,Quales,sql server
+18/11,noche,1:20,SQL Server,Quales,sql server
+19/11/2025,tarde,1:00,SQL Server,Quales,sql server
+21/11/2025,tarde,2:40,SQL Server,Quales,sql server + python
+21/11/2025,noche,2:40,SQL Server,Quales,sql server + python
+03/12/2025,tarde,0:40,SQL Server,Quales,sql server + python
+04/12/2025,tarde,0:40,SQL Server,Quales,sql server + python
+05/12/2025,tarde,0:40,SQL Server,Quales,sql server + python
+08/12/2025,mañana,1:00,SQL Server,Quales,sql server + python
+08/12/2025,noche,1:00,SQL Server,Quales,sql server + python
+09/12/2025,tarde,0:40,SQL Server,Quales,sql server + python
+19/12/2025,tarde,1:30,SQL Server,Quales,sql server + python
+20/12/2025,tarde,3:00,Proyecto final,Quales,sql server + python
+21/12/2025,noche,1:20,Proyecto final,Quales,sql server + python
+27/12/2025,tarde,1:40,Proyecto final,Quales,sql server + python
+29/12/2025,tarde,2:00,Proyecto final,Quales,Power BI
+29/12/2025,noche,1:40,Proyecto final,Quales,Power BI
+05/01/2026,noche,1:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
+07/01/2026,noche,1:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
+08/01/2026,tarde,1:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
+08/01/2026,noche,1:40,Proyecto Bot Telegram,Proyecto personal de data,App Script
+13/01/2026,noche,1:20,Proyecto Bot Telegram,Proyecto personal de data,App Script
+16/01/2026,noche,2:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
