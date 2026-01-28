@@ -73,13 +73,18 @@ df_estudio["dia"] = pd.to_datetime(
     errors="coerce"
 )
 
+df_inscripcion["fecha_limpia"] = df_inscripcion["fecha"].str.extract(r"(\d{1,2}/\d{1,2})")
+df_inscripcion["fecha_limpia"] += "/2025"
+
+
+mask_sin_anio = df_inscripcion["fecha"].str.match(r"^\d{1,2}/\d{1,2}$")
+df_inscripcion.loc[mask_sin_anio, "fecha"] = (df_inscripcion.loc[mask_sin_anio, "fecha"] + "/2025")
+
+
 # !! corregir fecha de inscripcion ya que no le puse año, y tiene texto !!
-df_inscripcion["fecha"] = pd.to_datetime(
-    df_inscripcion["fecha"],
+df_inscripcion["fecha_limpia"] = pd.to_datetime(
+    df_inscripcion["fecha_limpia"],
     dayfirst=True,
     errors="coerce"
 )
-print(df_objetivos.head())
-# print(df_objetivos.isna().sum())
-print(df_estudio.head())
-print(df_inscripcion.head())
+
