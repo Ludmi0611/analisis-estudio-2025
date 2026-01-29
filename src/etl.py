@@ -1,3 +1,4 @@
+import re
 import pandas as pd
 from pathlib import Path
 
@@ -38,8 +39,8 @@ def clean_text(df):
         df[col] = (
             df[col]
             .astype("string")
+            .str.lower()
             .str.strip()
-            .str.title()
             .replace("Nan", pd.NA)
         )
     return df
@@ -50,10 +51,10 @@ df_estudio = clean_columns(df_horas_estudio)
 df_objetivos = clean_text(df_objetivos)
 df_inscripcion = clean_text(df_inscripcion)
 df_estudio = clean_text(df_estudio)
-print(df_objetivos.head())
+# print(df_objetivos.head())
 
-print(df_inscripcion.head())
-print(df_estudio.head())
+# print(df_inscripcion.head())
+
 
 df_objetivos["fecha_de_inicio"] = pd.to_datetime(
     df_objetivos["fecha_de_inicio"], 
@@ -88,3 +89,32 @@ df_inscripcion["fecha_limpia"] = pd.to_datetime(
     errors="coerce"
 )
 
+def parse_minutes(value):
+    if pd.isna(value):
+        return pd.NA
+
+    value = str(value).lower().strip()
+
+
+    #formato hh:mm hs
+    hours_match = re.match(r"^(\d+):(\d+)\s*h", value)
+    if hours_match:
+        h = hours_match.group(1)
+        m = hours_match.group(2)
+        return int(h) * 60 + int(m)
+    
+    # #formato hh:mm
+    if re.match(r"^\d{1,2}:\d{1,2}", value):
+        h, m = value.split(":")
+        return int(h) * 60 + int(m)
+    
+    #formato "x h" o "x hs"
+    match_h = re.match(r"^(\d+)\s*h", value)
+    if match_h:
+        return int(match_h.group(1)) * 60
+    
+    return pd.NA
+
+df_estudio["minutos"] = (df_estudio["horas"].apply(parse_minutes).astype("Int64"))
+
+print(df_objetivos.head())

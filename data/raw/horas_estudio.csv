@@ -27,8 +27,8 @@ Dia ,Turno,Horas,Tecnología,Curso,Tema
 31/07/2025,mañana,1:00,Power BI,Platzi,Power BI Avanzado
 31/07/2025,tarde,1:00,Power BI,Platzi,Power BI Avanzado
 31/07/2025,noche,1:00,Power BI,Platzi,Power BI Avanzado
-01/08/2025,mañana,1:00,Fundamentos de IA,Guayerd - IBM,IA
-01/08/2025,tarde,2:00,Fundamentos de IA,Guayerd - IBM,IA
+01/08/2025,mañana,1:00,IA,Guayerd - IBM,Fundamentos de IA
+01/08/2025,tarde,2:00,IA,Guayerd - IBM,Fundamentos de IA
 02/08/2025,tarde,1:30,Python,ONE,"Python para data science: funciones, estructuras de datos y excepciones"
 08/08/2025,noche,1:00,Testing,XAcademy,Introduccion al testing
 20/08/2025,noche,1:00,Testing,XAcademy,Introduccion al testing
@@ -45,14 +45,14 @@ Dia ,Turno,Horas,Tecnología,Curso,Tema
 18/10/2025,mañana,0:40,Python,Guayerd - IBM,Proyecto Aurelion
 20/10/2025,tarde,1:00,Python,Guayerd - IBM,Proyecto Aurelion
 20/10,noche,0:40,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
-23/10/2025,mañana,1:00,Proyecto No Country,No Country,Dashboard
-24/10/2025,mañana,1:20,Proyecto No Country,No Country,Dashboard
-24/10/2025,noche,1:00,Proyecto No Country,No Country,Dashboard
-27/10/2025,mañana,1:40,Proyecto No Country,No Country,Dashboard
+23/10/2025,mañana,1:00,Looker Studio,No Country,Proyecto de No Country
+24/10/2025,mañana,1:20,Looker Studio,No Country,Proyecto de No Country
+24/10/2025,noche,1:00,Looker Studio,No Country,Proyecto de No Country
+27/10/2025,mañana,1:40,Looker Studio,No Country,Proyecto de No Country
 27/10/2025,tarde,1:00,Data Analytics,Quales,Entrega
 29/10/2025,tarde ,3:20,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
 30/10/2025,tarde,2:20,Matematica,Tec. en ciencia de datos,Curso de ingreso - Matematica
-02/11/2025,tarde,1:20,Data Analytics,Quales,sql server
+02/11/2025,tarde,1:20,sql server,Quales,Data Analytics
 02/11/2025,noche,0:40,Python,Guayerd - IBM,python for Data Science
 09/11/2025,tarde,1:20,Python,Guayerd - IBM,python for Data Science
 12/11/2025,noche,1:00,Python,Guayerd - IBM,python for Data Science
@@ -68,14 +68,14 @@ Dia ,Turno,Horas,Tecnología,Curso,Tema
 08/12/2025,noche,1:00,SQL Server,Quales,sql server + python
 09/12/2025,tarde,0:40,SQL Server,Quales,sql server + python
 19/12/2025,tarde,1:30,SQL Server,Quales,sql server + python
-20/12/2025,tarde,3:00,Proyecto final,Quales,sql server + python
-21/12/2025,noche,1:20,Proyecto final,Quales,sql server + python
-27/12/2025,tarde,1:40,Proyecto final,Quales,sql server + python
-29/12/2025,tarde,2:00,Proyecto final,Quales,Power BI
-29/12/2025,noche,1:40,Proyecto final,Quales,Power BI
-05/01/2026,noche,1:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
-07/01/2026,noche,1:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
-08/01/2026,tarde,1:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
-08/01/2026,noche,1:40,Proyecto Bot Telegram,Proyecto personal de data,App Script
-13/01/2026,noche,1:20,Proyecto Bot Telegram,Proyecto personal de data,App Script
-16/01/2026,noche,2:00,Proyecto Bot Telegram,Proyecto personal de data,App Script
+20/12/2025,tarde,3:00,Python,Quales,Proyecto final
+21/12/2025,noche,1:20,Python,Quales,Proyecto final
+27/12/2025,tarde,1:40,Python,Quales,Proyecto final
+29/12/2025,tarde,2:00,Power BI,Quales,Proyecto final
+29/12/2025,noche,1:40,Power BI,Quales,Proyecto final
+05/01/2026,noche,1:00,App Script,Proyecto personal,Proyecto Bot Telegram
+07/01/2026,noche,1:00,App Script,Proyecto personal,Proyecto Bot Telegram
+08/01/2026,tarde,1:00,App Script,Proyecto personal,Proyecto Bot Telegram
+08/01/2026,noche,1:40,App Script,Proyecto personal,Proyecto Bot Telegram
+13/01/2026,noche,1:20,App Script,Proyecto personal,Proyecto Bot Telegram
+16/01/2026,noche,2:00,App Script,Proyecto personal,Proyecto Bot Telegram
