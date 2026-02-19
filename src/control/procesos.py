@@ -1,5 +1,5 @@
-from conexion import sql_conn
-from utils import log
+from src.conexion import sql_conn
+from src.utils import log
 
 
 def iniciar_proceso(nombre_proceso):
@@ -24,7 +24,7 @@ def iniciar_proceso(nombre_proceso):
 
         return id_proceso
     
-def actualizar_estado(id_proceso, estado, mensaje=None, registros_procesados=None):
+def actualizar_estado(id_proceso, estado, mensaje=None, registros_procesados=None, registros_error=None):
     with sql_conn() as conn:
         cursor = conn.cursor()
 
@@ -34,6 +34,7 @@ def actualizar_estado(id_proceso, estado, mensaje=None, registros_procesados=Non
                 estado = ?,
                 mensaje = ?,
                 registros_procesdados = ?,
+                registros_error = ?,
                 fecha_fin = CASE
                     WHEN ? IN (2,3,4) THEN GETDATE()
                     ELSE fecha_fin
@@ -41,20 +42,29 @@ def actualizar_estado(id_proceso, estado, mensaje=None, registros_procesados=Non
             WHERE id_proceso = ?;
             """
         
-        cursor.execute(query, (estado, mensaje, registros_procesados, estado, id_proceso))
+        cursor.execute(query, (estado, mensaje, registros_procesados, registros_error, estado, id_proceso))
 
         cursor.close()
 
         log(f"Estado actualizado: ID {id_proceso} -> Estado {estado}")
 
-def finalizar_proceso_ok(id_proceso, estado, mensaje=None, registros_procesados=None):
-    with sql_conn() as conn:
-        cursor = conn.cursor()
+def finalizar_proceso_ok(id_proceso, registros_procesados):
+    actualizar_estado(
+        id_proceso = id_proceso,
+        estado = 2,
+        mensaje = f"Proceso finalizado correctamente",
+        registros_procesados = registros_procesados
+    )
 
-        query = """
-            UPDATE control.control_procesos
-            SET
+    log(f"Proceso finalizado OK: ID {id_proceso} -> Registros procesados: {registros_procesados}")
 
+def finalizar_proceso_error(id_proceso, mensaje_error,registros_error=0):
+    actualizar_estado(
+        id_proceso= id_proceso,
+        estado= 3,
+        mensaje= f"Proceso finalizado con error: {mensaje_error}",
+        registros_procesados= 0,
+        registros_error= registros_error
+    )
 
-
-            """
+    log(f"Proceso finalizado ERROR: ID {id_proceso} -> Registros erroneos: {registros_error}")
